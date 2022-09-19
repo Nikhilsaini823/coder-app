@@ -22,7 +22,7 @@ export default function Nevbar() {
         setToken(data)
     }
     getToken() 
-},[])
+  },[])
 
     return (
     <div> 
