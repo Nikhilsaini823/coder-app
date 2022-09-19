@@ -1,0 +1,12 @@
+.center {
+    margin: auto;
+    width: 35%;
+
+}
+.imgsize{
+    max-height: 500px;
+}
+
+.cardimg{
+    height: 148px;
+}
