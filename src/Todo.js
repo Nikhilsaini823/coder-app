@@ -68,8 +68,8 @@ export const Todo=() => {
                 <td className='space pgh'>{todo.description}</td>
                 <td className='space pgh'>{todo.task_status}</td>
                 <td className='space'>
-                <button type="submit" className="btn btn-danger my-3" onClick={(event) => onDelete(event, todo.id)} style={{'marginRight': '10px'}}>Delete</button>
-                {todo.task_status === 'Pending' && <button type="submit" className="btn btn-success ms-1 "  onClick={(event) => onFinished(event, todo.id)}>Finished</button>}
+                  <button type="submit" className="btn btn-danger my-3" onClick={(event) => onDelete(event, todo.id)} style={{'marginRight': '10px'}}>Delete</button>
+                  {todo.task_status === 'Pending' && <button type="submit" className="btn btn-success ms-1 "  onClick={(event) => onFinished(event, todo.id)}>Finished</button>}
                 </td>
             </tr>
           )
